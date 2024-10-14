@@ -3,3 +3,20 @@
 # которые являются степенями числа 2.
 # Вывести "нет", если таких чисел нет.
 
+a = int(input())
+b = 0
+c = 0
+d = 0
+while a !=0:
+    for i in range(1,a):
+            if a == 2**i:
+                b +=1
+                c +=a
+    a = int(input())
+if b ==0:
+    print("нет")
+else:
+    d = c/b
+print(d)
+
+
