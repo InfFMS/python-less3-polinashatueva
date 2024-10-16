@@ -4,7 +4,7 @@
 N = int(input())
 a =0
 b=0
-for i in range(1,N+1):
+for c in range(1,N+1):
     c= int(input())
     if c>0:
         a +=1
