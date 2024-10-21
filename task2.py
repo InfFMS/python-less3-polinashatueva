@@ -5,11 +5,12 @@ a = int(input())
 b=0
 c=0
 while a != 0:
-    if a // 10 >= 1 and a//10 <= 9:
+    if a >9 and a <100:
         b += 1
-    elif a //10 == 0:
+    else:
         c += 1
     a = int(input())
 print(b,c)
+
 
 

@@ -2,18 +2,20 @@
 # Определить минимальное и максимальное среди двузначных чисел,
 # которые делятся на 3. Если таких чисел не было, вывести "нет".
 N = int(input())
+m = 666
+M = 1
 for i in range(1,N+1):
-    i = int(input())
-    m = 666
-    M = 1
-    if i%3==0 and 10<=i<100:
-        if M<i:
-            M=i
-        if m>i:
-            m=i
-if M!=m:
-    print(M,m)
-elif M==m:
-    print(M)
-elif M ==1 and m ==666:
+    b = int(input())
+    if b%3==0 and 10<=b<100:
+        if M<b:
+            M=b
+        if m>b:
+            m=b
+if m==666 :
     print("no")
+else:
+    print(m)
+if M ==1:
+    print("no")
+else:
+    print(M)
